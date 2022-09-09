@@ -15,7 +15,7 @@
   display: flex;
   justify-content:space-between;
   align-items: center;
-  padding: 25px 5% 0 0;
+  padding: 16px 5% 0 18px;
 }
 
 li, a, button {
@@ -30,7 +30,7 @@ li, a, button {
   cursor: pointer;
 }
 
-.middle-logo  {
+.header-img  {
   display:flex;
   align-items: center;
   text-decoration: none;
@@ -70,6 +70,8 @@ button:hover {
   background-color: #ffffff;
 }
 
+
+
 main {
   background-color: #c8aeae;
 }
@@ -105,7 +107,46 @@ h1 {
   margin: 20px 0px 0px 350px; /* not responsive but works in 1080p  */
 }
 
-footer {
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+
+
+::placeholder {
+  color: #000000;
+}
+
+
+#email{
+  border: 2px solid;
+  border-radius: 2px;
+  height: 30px;
+  font-size: 14pt;
+  width: 300px;
+}
+
+.get-started {
+  padding: 9px 25px;
+  background-color: #ac5858;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+  margin: 12px;
+}
+
+.get-started:hover {
+  background-color: #ffffff;
 }
