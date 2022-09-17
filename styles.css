@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-
+@media only screen and (max-width: 620px) {
+ main, header, #hero, .hero-img, .info, .container, #form {
+  width: 100%;
+ }
+}
 
 * {
   margin: 0;
@@ -16,6 +20,15 @@
   justify-content:space-between;
   align-items: center;
   padding: 16px 5% 0 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  
+  
 }
 
 li, a, button {
@@ -117,11 +130,6 @@ h1 {
   
 }
 
-#form {
-  display: flex;
-  flex-direction: column;
-  padding: 14px;
-}
 
 
 ::placeholder {
@@ -149,4 +157,41 @@ h1 {
 
 .get-started:hover {
   background-color: #ffffff;
+}
+
+#container {
+  display: flex;
+}
+
+#video {
+  display: flex;
+}
+
+.icons  {
+  display: table-column-group;
+}
+
+.icon-p {
+  
+}
+
+.fa-sharp, .fa-solid, .fa-solid {
+  font-size: 32pt;
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+}
+
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  background-color: #c8aeae;
+}
+
+.form-h2 {
+  background-color: #c8aeae;
 }
